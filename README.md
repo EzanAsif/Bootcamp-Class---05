@@ -3,9 +3,8 @@
 # --------------------  CLASS-05 NOTES  ------------------
 
 
-=============================================================
 CONTEXT API (Saves data centrally and every comp can use it):
-=============================================================
+============================================================
 
 Normally mien 1 jaga pe value hoti ha jo k component ko jati ha phr child aur phr grand child.Ismien data ki handling thori mushkl hojati ha.
 
@@ -34,7 +33,6 @@ Agar kisi child comp mien uske parent k local variable ka data arha ha tou woh u
 	use krne k lia usse call aur import alag se krna hoga
 	
 	
-==============================
 useReducer()
 ==============================
 
@@ -52,7 +50,7 @@ A reducer is a pure function that calculates the next state based on the previou
 
 What does “pure function” mean? A pure function takes an input and returns an output without changing the input or anything else. This means that a reducer returns a completely new state that substitutes the previous one.
 	
-		==========================
+		
 		         TO UPDATE
 		==========================
 		
