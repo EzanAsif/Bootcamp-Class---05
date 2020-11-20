@@ -36,6 +36,23 @@ Agar kisi child comp mien uske parent k local variable ka data arha ha tou woh u
 useReducer()
 ==============================
 
+
+Reducer only to change the state
+
+Switch case --> to know TYPE of change
+
+Action{
+	Type : 'INCREMENT' (example),
+	The new value to change
+
+}
+
+dispatch(Action)
+
+- takes two values : 
+ 1-Reducer function
+ 2-An initial state value.
+
 - takes two values : 
  1-Reducer function
  2-An initial state value.
